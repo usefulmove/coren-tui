@@ -1,0 +1,23 @@
+{
+  "name": "coren-tui",
+  "version": "0.0.11",
+  "description": "Coren interpreter — TUI version",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "coren": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js"
+  },
+  "dependencies": {
+    "ink": "^5.2.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "typescript": "^5.7.2"
+  }
+}
